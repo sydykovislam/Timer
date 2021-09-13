@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var hours: UILabel! 
+    @IBOutlet weak var hours: UILabel!
     
     @IBOutlet weak var minutes: UILabel!
     
