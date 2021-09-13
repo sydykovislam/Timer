@@ -47,10 +47,9 @@ class TimerViewController: UIViewController {
         
     }
     
-    func secondsToFullVersion(seconds: Int) -> (Int, Int, Int)
-        {
+    func secondsToFullVersion(seconds: Int) -> (Int, Int, Int) {
             return ((seconds / 3600), ((seconds % 3600) / 60),((seconds % 3600) % 60))
-        }
+    }
     
     func makeTimerString(hours: Int, minutes: Int, seconds : Int) -> String {
         let hoursStr = String(format: "%02d", hours)

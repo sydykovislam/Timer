@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             stopwatchView.isHidden = true
         case 1:
             timerView.isHidden = true
-            stopwatchView.isHidden = true
+            stopwatchView.isHidden = false
         default:
             break
         }
