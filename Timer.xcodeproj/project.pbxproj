@@ -13,6 +13,7 @@
 		DDAD82E026EF2E3700EE040D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAD82DE26EF2E3700EE040D /* Main.storyboard */; };
 		DDAD82E226EF2E4100EE040D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAD82E126EF2E4100EE040D /* Assets.xcassets */; };
 		DDAD82E526EF2E4100EE040D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAD82E326EF2E4100EE040D /* LaunchScreen.storyboard */; };
+		DDAD82F626EFF1A200EE040D /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD82F526EFF1A200EE040D /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DDAD82E126EF2E4100EE040D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDAD82E426EF2E4100EE040D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDAD82E626EF2E4100EE040D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAD82F526EFF1A200EE040D /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				DDAD82E126EF2E4100EE040D /* Assets.xcassets */,
 				DDAD82E326EF2E4100EE040D /* LaunchScreen.storyboard */,
 				DDAD82E626EF2E4100EE040D /* Info.plist */,
+				DDAD82F526EFF1A200EE040D /* TimerViewController.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAD82F626EFF1A200EE040D /* TimerViewController.swift in Sources */,
 				DDAD82DD26EF2E3700EE040D /* ViewController.swift in Sources */,
 				DDAD82D926EF2E3700EE040D /* AppDelegate.swift in Sources */,
 				DDAD82DB26EF2E3700EE040D /* SceneDelegate.swift in Sources */,
